@@ -2232,16 +2232,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="134.62" y="40.64"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<wire x1="220.98" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="86.36" x2="228.6" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
-<junction x="228.6" y="86.36"/>
-<pinref part="ANT1" gate="G$1" pin="P$1"/>
-<pinref part="C11" gate="C$1" pin="1"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="L2" gate="L$1" pin="2"/>
@@ -2291,6 +2281,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="205.74" y1="83.82" x2="205.74" y2="86.36" width="0.1524" layer="91"/>
 <junction x="205.74" y="86.36"/>
 <wire x1="205.74" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="86.36" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="86.36" x2="228.6" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="86.36" x2="228.6" y2="83.82" width="0.1524" layer="91"/>
+<junction x="228.6" y="86.36"/>
+<pinref part="ANT1" gate="G$1" pin="P$1"/>
+<pinref part="C11" gate="C$1" pin="1"/>
+<wire x1="231.14" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="86.36" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWDCLK" class="0">
