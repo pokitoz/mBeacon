@@ -167,14 +167,14 @@ Product Page &lt;a href="http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom
 &lt;b&gt;Description:&lt;/b&gt;&lt;br&gt;
 Bluetooth Low Energy board</description>
 <plain>
-<wire x1="20.8" y1="-0.2" x2="55.7" y2="-0.2" width="0" layer="20"/>
-<wire x1="55.7" y1="-0.2" x2="55.7" y2="22.06" width="0" layer="20"/>
-<wire x1="55.7" y1="22.06" x2="20.8" y2="22.06" width="0" layer="20"/>
-<wire x1="20.8" y1="22.06" x2="20.8" y2="-0.2" width="0" layer="20"/>
+<wire x1="20.8" y1="-0.3" x2="56" y2="-0.3" width="0" layer="20"/>
+<wire x1="56" y1="-0.3" x2="56" y2="22.96" width="0" layer="20"/>
+<wire x1="56" y1="22.96" x2="20.8" y2="22.96" width="0" layer="20"/>
+<wire x1="20.8" y1="22.96" x2="20.8" y2="-0.3" width="0" layer="20"/>
 <text x="43.6" y="8" size="1" layer="21" font="vector" ratio="15" rot="R90" align="center-left">nRF52832</text>
-<rectangle x1="49.4" y1="9.3" x2="50.9" y2="11.7" layer="41"/>
-<rectangle x1="51" y1="-1.5" x2="56" y2="24.7" layer="42"/>
-<rectangle x1="51" y1="-1.5" x2="56" y2="25.9" layer="41"/>
+<rectangle x1="49.4" y1="9.2" x2="50.9" y2="11.6" layer="41"/>
+<rectangle x1="51" y1="-0.3" x2="56" y2="22.8" layer="42"/>
+<rectangle x1="51" y1="-0.3" x2="56" y2="22.8" layer="41"/>
 <rectangle x1="42.8" y1="9.7" x2="46.5" y2="12.1" layer="41"/>
 </plain>
 <libraries>
@@ -683,7 +683,7 @@ design rules under a new name.</description>
 </element>
 <element name="ANT1" library="Nordic_misc" package="QWMP_MEANDERED_LEFT_+6" value="" x="50.94" y="10.85" smashed="yes"/>
 <element name="L3" library="Nordic_misc" package="RESC0402_N" value="3.9nH" x="46.34" y="10.85" smashed="yes">
-<attribute name="NAME" x="46.34" y="11.45" size="0.6" layer="25"/>
+<attribute name="NAME" x="45.64" y="9.65" size="0.6" layer="25"/>
 </element>
 <element name="L1" library="Nordic_misc" package="RESC0402_N" value="15nH" x="36.74" y="17.3" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.64" y="19.4" size="0.6" layer="25" rot="R270"/>
@@ -695,10 +695,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="42.84" y="19" size="0.6" layer="25" rot="R180"/>
 </element>
 <element name="C5" library="Nordic_misc" package="RESC0402_N" value="12pF" x="44.64" y="15.2" smashed="yes">
-<attribute name="NAME" x="46.84" y="15.4" size="0.6" layer="25" rot="R180"/>
+<attribute name="NAME" x="46.74" y="15.4" size="0.6" layer="25" rot="R180"/>
 </element>
 <element name="C10" library="Nordic_misc" package="RESC0402_N" value="0.8pF" x="44.74" y="11.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="45.24" y="8.8" size="0.6" layer="25" rot="R90"/>
+<attribute name="NAME" x="45.04" y="8.7" size="0.6" layer="25" rot="R90"/>
 </element>
 <element name="C6" library="Nordic_misc" package="RESC0402_N" value="100nF" x="35.04" y="13.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.34" y="14.2" size="0.6" layer="25"/>
@@ -710,10 +710,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.84" y="15.9" size="0.6" layer="25" rot="R90"/>
 </element>
 <element name="C8" library="Nordic_misc" package="RESC0402_N" value="N.M." x="45.34" y="13.2" smashed="yes">
-<attribute name="NAME" x="46.54" y="12.7" size="0.6" layer="25"/>
+<attribute name="NAME" x="46.44" y="12.8" size="0.6" layer="25"/>
 </element>
 <element name="C7" library="Nordic_misc" package="RESC0402_N" value="100pF" x="44.94" y="14.2" smashed="yes">
-<attribute name="NAME" x="46.24" y="13.8" size="0.6" layer="25"/>
+<attribute name="NAME" x="46.04" y="13.8" size="0.6" layer="25"/>
 </element>
 <element name="C4" library="Nordic_misc" package="RESC0603_N" value="4.7µF" x="35.44" y="14.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.64" y="16.1" size="0.6" layer="25" rot="R180"/>
@@ -721,8 +721,8 @@ design rules under a new name.</description>
 <element name="C2" library="Nordic_misc" package="RESC0603_N" value="1.0µF" x="38.04" y="17" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.54" y="18.6" size="0.6" layer="25" rot="R90"/>
 </element>
-<element name="C11" library="Nordic_misc" package="RESC0402_N" value="TBD" x="50.54" y="11.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="49.14" y="12.55" size="0.6" layer="25" rot="R270"/>
+<element name="C11" library="Nordic_misc" package="RESC0402_N" value="TBD" x="50.54" y="11.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.34" y="13.2" size="0.6" layer="25" rot="R270"/>
 </element>
 <element name="X2" library="Nordic_nRF" package="XTAL_3215_N" value="32.768kHz" x="32.74" y="11.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.04" y="14.3" size="0.6" layer="25" rot="R180"/>
@@ -731,7 +731,7 @@ design rules under a new name.</description>
 <attribute name="BGA" x="42.99" y="3.93" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C13" library="Nordic_misc" package="RESC0402_N" value="N.C." x="47.94" y="10.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="47.34" y="8.4" size="0.6" layer="25" rot="R90"/>
+<attribute name="NAME" x="48.24" y="7.6" size="0.6" layer="25" rot="R90"/>
 </element>
 <element name="C9" library="Nordic_misc" package="RESC0402_N" value="12pF" x="31.04" y="13.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.44" y="12.8" size="0.6" layer="25" rot="R90"/>
@@ -796,16 +796,16 @@ design rules under a new name.</description>
 <contactref element="C12" pad="1"/>
 <contactref element="BATT1" pad="1"/>
 <polygon width="0.2" layer="16">
-<vertex x="21" y="-0.3"/>
-<vertex x="21" y="22.06"/>
-<vertex x="55.7" y="22.06"/>
-<vertex x="55.7" y="-0.3"/>
+<vertex x="20.8" y="-0.3"/>
+<vertex x="20.8" y="22.96"/>
+<vertex x="56" y="22.96"/>
+<vertex x="56" y="-0.3"/>
 </polygon>
 <polygon width="0.2" layer="1">
-<vertex x="21" y="-0.3"/>
-<vertex x="21" y="22.06"/>
-<vertex x="55.7" y="22.06"/>
-<vertex x="55.7" y="-0.3"/>
+<vertex x="20.8" y="-0.3"/>
+<vertex x="20.8" y="22.96"/>
+<vertex x="56" y="22.96"/>
+<vertex x="56" y="-0.3"/>
 </polygon>
 <wire x1="42.54" y1="11.25" x2="41.74" y2="11.25" width="0.1524" layer="1"/>
 <wire x1="41.34" y1="11.65" x2="41.74" y2="11.25" width="0.1524" layer="1"/>
@@ -1112,10 +1112,8 @@ design rules under a new name.</description>
 <contactref element="X2" pad="2"/>
 <contactref element="C12" pad="2"/>
 <wire x1="32.74" y1="10.35" x2="31.04" y2="10.35" width="0.2" layer="1"/>
-<wire x1="36.54" y1="12.45" x2="36.14" y2="12.45" width="0.1524" layer="1"/>
-<wire x1="36.14" y1="12.45" x2="35.94" y2="12.25" width="0.1524" layer="1"/>
-<wire x1="35.94" y1="12.25" x2="34.76" y2="12.25" width="0.1524" layer="1"/>
-<wire x1="34.76" y1="12.25" x2="32.86" y2="10.35" width="0.1524" layer="1"/>
+<wire x1="36.54" y1="12.45" x2="34.96" y2="12.45" width="0.1524" layer="1"/>
+<wire x1="34.96" y1="12.45" x2="32.86" y2="10.35" width="0.1524" layer="1"/>
 <wire x1="32.74" y1="10.35" x2="32.86" y2="10.35" width="0.1524" layer="1"/>
 <contactref element="U1" pad="3"/>
 </signal>
@@ -1125,8 +1123,10 @@ design rules under a new name.</description>
 <contactref element="ANT1" pad="P$1"/>
 <contactref element="C11" pad="1"/>
 <contactref element="L3" pad="2"/>
-<wire x1="50.94" y1="10.85" x2="47.94" y2="10.85" width="0.1524" layer="1"/>
-<wire x1="50.94" y1="10.85" x2="50.54" y2="10.8" width="0" layer="19" extent="1-1"/>
+<wire x1="50.49" y1="10.85" x2="47.94" y2="10.85" width="0.6096" layer="1"/>
+<wire x1="50.59" y1="10.85" x2="50.94" y2="10.85" width="0.1524" layer="1"/>
+<wire x1="50.59" y1="10.85" x2="50.54" y2="10.85" width="0" layer="19" extent="1-1"/>
+<wire x1="50.49" y1="10.85" x2="50.54" y2="10.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDCLK">
 <contactref element="J100" pad="4"/>
@@ -1205,74 +1205,14 @@ design rules under a new name.</description>
 <wire x1="35" y1="6.25" x2="34.8" y2="6.05" width="0.1524" layer="1"/>
 <wire x1="34.8" y1="6.05" x2="34.8" y2="4.8" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$12">
-<via x="50.4" y="13" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$13">
-<via x="50.4" y="14" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$14">
-<via x="50.4" y="15" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$15">
-<via x="50.4" y="16" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$16">
-<via x="50.4" y="17" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$17">
-<via x="50.4" y="18" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$18">
-<via x="50.4" y="19" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$19">
-<via x="50.4" y="20" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$20">
-<via x="50.4" y="21" extent="1-16" drill="0.4"/>
-</signal>
 <signal name="N$21">
-<via x="49.4" y="8.8" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$22">
-<via x="50.4" y="8.8" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$23">
-<via x="50.4" y="7.8" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$24">
-<via x="50.4" y="6.8" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$25">
-<via x="50.4" y="5.8" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$26">
-<via x="50.4" y="4.8" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$27">
-<via x="50.4" y="3.7" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$28">
-<via x="50.4" y="2.7" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$29">
-<via x="50.4" y="1.7" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$1">
-<via x="50.4" y="0.7" extent="1-16" drill="0.4"/>
+<via x="48.9" y="8.8" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$7">
-<via x="48.9" y="10.1" extent="1-16" drill="0.4"/>
+<via x="48.9" y="9.8" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$9">
 <via x="47" y="9.9" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$10">
-<via x="46" y="9.9" extent="1-16" drill="0.4"/>
-</signal>
-<signal name="N$11">
-<via x="45" y="9.9" extent="1-16" drill="0.4"/>
 </signal>
 <signal name="N$32">
 <via x="47.9" y="11.8" extent="1-16" drill="0.4"/>
@@ -1280,11 +1220,65 @@ design rules under a new name.</description>
 <signal name="N$33">
 <via x="46.9" y="11.8" extent="1-16" drill="0.4"/>
 </signal>
-<signal name="N$34">
-<via x="45.9" y="11.8" extent="1-16" drill="0.4"/>
-</signal>
 <signal name="N$35">
-<via x="48.9" y="11.6" extent="1-16" drill="0.4"/>
+<via x="48.9" y="11.8" extent="1-16" drill="0.4"/>
+</signal>
+<signal name="N$6">
+<via x="50.4" y="12.9" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$10">
+<via x="50.4" y="13.9" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$11">
+<via x="50.4" y="14.9" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$12">
+<via x="50.4" y="15.9" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$13">
+<via x="50.4" y="16.9" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$14">
+<via x="50.4" y="17.9" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$15">
+<via x="50.4" y="18.9" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$16">
+<via x="50.4" y="19.9" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$17">
+<via x="50.4" y="20.9" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$18">
+<via x="50.4" y="21.9" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$1">
+<via x="50.4" y="8.7" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$19">
+<via x="50.4" y="7.7" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$20">
+<via x="50.4" y="6.7" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$22">
+<via x="50.4" y="5.7" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$23">
+<via x="50.4" y="4.7" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$24">
+<via x="50.4" y="3.7" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$25">
+<via x="50.4" y="2.7" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$26">
+<via x="50.4" y="1.7" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$27">
+<via x="50.4" y="0.7" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
