@@ -2394,7 +2394,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="N$10" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="88.9" y1="38.1" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
@@ -3001,7 +3001,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="142.24" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="N$10" class="0">
 <segment>
 <pinref part="GND30" gate="1" pin="GND"/>
 <pinref part="BATT1" gate="G$1" pin="-"/>
