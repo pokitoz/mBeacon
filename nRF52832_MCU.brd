@@ -1127,8 +1127,7 @@ design rules under a new name.</description>
 <contactref element="C11" pad="1"/>
 <contactref element="L3" pad="2"/>
 <wire x1="29.69" y1="11.15" x2="27.14" y2="11.15" width="0.6096" layer="1"/>
-<wire x1="30.14" y1="11.15" x2="29.79" y2="11.15" width="0.1524" layer="1"/>
-<wire x1="29.74" y1="11.15" x2="30.14" y2="11.15" width="0.1524" layer="1"/>
+<wire x1="30.14" y1="11.15" x2="29.74" y2="11.15" width="0.254" layer="1"/>
 <wire x1="29.69" y1="11.15" x2="29.74" y2="11.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDCLK">
