@@ -1,0 +1,11 @@
+# nRF52 MBeacon board configuration
+
+if BOARD_MBEACON
+
+config BOARD
+	default "mBeacon"
+
+config BT_CTLR
+	default BT
+
+endif # BOARD_MBEACON

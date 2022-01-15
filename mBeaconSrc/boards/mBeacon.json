@@ -1,0 +1,31 @@
+{
+    "build": {
+      "cpu": "cortex-m4",
+      "f_cpu": "64000000L",
+      "mcu": "nrf52832",
+      "zephyr": {
+         "variant": "mBeacon"
+      }
+    },
+    "connectivity": [
+      "bluetooth"
+    ],
+    "debug": {
+      "jlink_device": "nRF52832_xxAA",
+      "svd_path": "nrf52.svd"
+    },
+    "frameworks": [
+      "zephyr"
+    ],
+    "name": "BLE Beacon nRF52832",
+    "upload": {
+      "maximum_ram_size": 131072,
+      "maximum_size": 524288,
+      "protocol": "jlink",
+      "protocols": [
+        "jlink"
+      ]
+    },
+    "url": "https://github.com/pokitoz/mBeacon",
+    "vendor": "mBeacon"
+}

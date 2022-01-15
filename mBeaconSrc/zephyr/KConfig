@@ -1,0 +1,6 @@
+module = KBEACONMAIN
+module-str = Main module log
+source "${ZEPHYR_BASE}/subsys/logging/Kconfig.template.log_config"
+
+
+source "Kconfig.zephyr"

@@ -1,0 +1,5 @@
+# nRF52 MBeacon board configuration
+
+config BOARD_MBEACON
+	bool "nRF52 DK NRF52832"
+	depends on SOC_NRF52832_QFAA
