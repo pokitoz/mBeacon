@@ -2,6 +2,7 @@
 
 ## Project setup
 
+- Do not have Spaces in the path of the project
 - Based on platformio: `https://platformio.org/install/ide?install=vscode`, use VSCode and import the project
 - Zephyr version can be found in `C:\.platformio\packages\framework-zephyr\VERSION`.
 - Look for `https://docs.platformio.org/en/latest/frameworks/zephyr.html?utm_source=docs.zephyrproject.org#configuration`
